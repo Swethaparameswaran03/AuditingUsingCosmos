@@ -8,7 +8,8 @@ import com.azure.spring.data.cosmos.repository.CosmosRepository;
 
 
 @Repository
-public interface EmployeeRespository extends CosmosRepository<Employee,String> {
+public interface EmployeeRespository extends CosmosRepository<Employee,Integer> {
+
 
 
 
